@@ -1,0 +1,11 @@
+# GET /coffees
+
+GET http://localhost:3000/coffees?limit=20&offset=10
+Accept: application/json
+
+###
+
+### GET coffees/:id
+GET http://localhost:3000/coffees/10
+
+###
